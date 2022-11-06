@@ -9,6 +9,11 @@ app.get("/", (req, res) => {
 })
 
 
+app.get("/check", (req, res) => {
+    res.send("This is a page checking the value")
+})
+
+
 
 
 app.listen(PORT, async () => {
